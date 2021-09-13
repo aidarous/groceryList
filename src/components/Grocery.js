@@ -19,14 +19,7 @@ if (edit.id) {
     return <GroceryForm edit={edit} onSubmit={submitUpdate} />
 }
 
-return groceries.map((grocery,index) => (
-    <div key={index}>
-        
-    </div>
-    
-)
 
-)
 
 function Grocery() {
     const[edit, setEdit] = useState({
